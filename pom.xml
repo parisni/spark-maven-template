@@ -66,7 +66,24 @@
       <version>3.0.0-M15</version>
       <scope>test</scope>
     </dependency>
-
+      <!-- For logging -->
+		<dependency>
+			<artifactId>logback-classic</artifactId>
+			<groupId>ch.qos.logback</groupId>
+			<version>${logback.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<artifactId>logback-core</artifactId>
+			<groupId>ch.qos.logback</groupId>
+			<version>${logback.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<artifactId>slf4j-api</artifactId>
+			<groupId>org.slf4j</groupId>
+			<version>${slf4j.version}</version>
+		</dependency>
   </dependencies>
 
   <build>
